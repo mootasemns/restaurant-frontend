@@ -1,7 +1,6 @@
 import { ChefHat, Leaf, Users } from 'lucide-react';
 import StatsSection from '@/components/Stats';
 
-// This can remain a Server Component as it has no client-side interactivity
 export const metadata = {
   title: 'About Us | Delicioso',
   description:
@@ -67,7 +66,7 @@ export default function AboutPage() {
             <div className="text-center p-8">
               <Users className="h-20 w-20 text-orange-500/60 mx-auto mb-4" />
               <p className="text-orange-600/80 font-medium">
-                Placeholder for 'Our Team' Image
+                Placeholder for Our Team Image
               </p>
             </div>
           </div>
@@ -89,9 +88,9 @@ export default function AboutPage() {
           </h3>
           <p className="text-orange-600 font-medium mt-1">Culinary Director</p>
           <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-600">
-            "For me, cooking is not just a job; it's a way to connect with
-            people and share joy. Every ingredient has a story, and I love
-            telling it through my food."
+            &quot;For me, cooking is not just a job; it&apos;s a way to connect
+            with people and share joy. Every ingredient has a story, and I love
+            telling it through my food.&quot;
           </p>
         </div>
       </section>

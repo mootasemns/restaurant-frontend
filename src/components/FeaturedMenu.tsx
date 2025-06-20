@@ -1,9 +1,7 @@
 import React from 'react';
-import Image from 'next/image'; // Assuming you'll have images
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
-// Placeholder data - this will come from your backend later
 const featuredItems = [
   {
     name: 'Spicy Arrabiata',
